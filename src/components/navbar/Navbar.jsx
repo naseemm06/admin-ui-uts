@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
           <div className="item">
             <img
-              src="https://static.miraheze.org/bluearchivewiki/c/c2/Hoshino_%28Swimsuit%29.png"
+              src="https://media.licdn.com/dms/image/D5603AQG1yFgaj_McQw/profile-displayphoto-shrink_400_400/0/1713620668235?e=1722470400&v=beta&t=2yxx2hTpCaczsyOvxzHiRXeU_O9uTmFQF6lkXjBBxs8"
               alt=""
               className="avatar"
             />
