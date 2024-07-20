@@ -7,12 +7,12 @@ describe('template spec', () => {
     cy.get('input#email')
       .should('be.visible')
       .should('have.attr', 'placeholder', 'Enter your email')
-      .type('rondealex3@gmail.com').should('have.value', 'rondealex3@gmail.com')
+      .type('admin@store.com').should('have.value', 'admin@store.com')
 
     cy.get('input#password')
       .should('be.visible')
       .should('have.attr', 'placeholder', 'Enter your password')
-      .type('@Tomat333').should('have.value', '@Tomat333')    
+      .type('123456').should('have.value', '123456')    
 
     cy.get('[data-testid="submit"]').click()
 
