@@ -59,7 +59,42 @@
         }
     }
 
+    .myDatatable {
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .MuiDataGrid-topContainer {
+                background-color: #111;
+                color: #333;
+            }
+
+            .MuiDataGrid-cell {
+                color: gray;
+            }
+
+            .MuiDataGrid-columnHeaderTitle {
+                color: gray;
+            }
+
+            .MuiCheckbox-root svg {
+                color: gray;
+            }
+
+            div {
+                color: gray;
+                background-color: transparent;
+            }
+
+            .viewButton {
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
     input {
         background-color: transparent;
+        color: gray;
     }
 }

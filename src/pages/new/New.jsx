@@ -147,7 +147,9 @@ const New = ({ inputs, title }) => {
                 </div>
               ))}
               <button disabled={per !== null && per < 100} type="submit">
-                Send
+                <li data-testid="submit">
+                  Send
+                </li>
               </button>
             </form>
           </div>
